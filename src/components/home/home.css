@@ -1,0 +1,140 @@
+
+
+/* ESTRUCTURA*/
+
+.container {
+    border: 3px solid red;
+    width: 100%;
+    height: 90vh;
+    padding: 0px 50px;
+    background-image: url("https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQLCze-BD5qRbct2Ygy4QxA3pO4ojZ9onLxrdmUZWqR2Ff0eySQt29nbw75thSZuJsUot678B56sVjhOpNG4oSRBCAJG.webp?r=c37");
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    border: 3px solid green;
+    display: flex;
+    align-items: center;
+}
+
+
+.main_header {
+    width: 100%;
+    height: calc(90vh - 85px);
+    border: 3px solid blue;
+}
+
+.main {
+    width: 100%;
+    height: 1000px;
+    border: 3px solid skyblue;
+}
+
+
+/*MENU*/
+
+.menu_bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu_bar .opciones {
+    display: flex;
+    margin-right: 420px;
+}
+
+.opciones a {
+    padding: 0px 14px;
+    color: white;
+}
+
+.menu_bar img {
+    width: 90px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.iconos i {
+    font-size: 20px;
+    padding: 0px 14px;
+}
+
+.iconos .imagen {
+    width: 30px;
+    height: 30px;
+}
+
+.foto_perfil {
+    display: flex;
+    align-items: center;
+}
+
+.iconos .opciones_imagen {
+    color: white;
+}
+
+/*MAIN_HEADER*/
+
+.detalle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    /* border: 1px solid yellow; */
+    width: 500px;
+    height: 350px;
+    margin-top: 100px;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+
+.detalle img {
+    width: 500px;
+    height: 200px;
+}
+
+.botones {
+    display: flex;
+}
+
+.botones i {
+    margin-right: 10px;
+}
+.botones a {    
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.botones .boton_reproducir {
+    border: 1px solid white;
+    background: white;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+.botones .boton_informacion {
+    border: 1px solid gray;
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+
+.botones .boton_informacion  a {
+    color: white;
+}
+
+.boton_reproducir i {
+    color: black;
+    font-size: 16px;
+}
+
