@@ -43,18 +43,36 @@
     color: white;
 }
 
+.menu_bar img {
+    width: 90px;
+}
 .menu_bar .opciones {
     display: flex;
-    margin-right: 420px;
+    border: 2px solid yellow
+}
+
+.logo_opciones {
+    display: flex;
+    align-items: center;
+}
+
+.logo_opciones img {
+    margin-right: 20px;
 }
 
 .opciones a {
     padding: 0px 14px;
     color: white;
+    font-size: 1.1vw;
 }
 
-.menu_bar img {
-    width: 90px;
+.opciones_responsive a {
+    width: 200px;
+    padding: 0px 14px;
+    color: white;
+}
+.opciones_responsive {
+    display: none;
 }
 
 .iconos {
@@ -92,14 +110,34 @@
     width: 500px;
     height: 350px;
     margin-top: 100px;
-    font-weight: 400;
     color: white;
     font-size: 20px;
 }
 
+.detalle p {
+    font-weight: 500;
+}
+
 .detalle img {
-    width: 500px;
+    object-fit: cover;
+    filter: brightness(70%);
+    animation: escalar 1.9s infinite alternate;
+    width: 490px;
     height: 200px;
+}
+
+.detalle img:hover {
+    filter: brightness(100%);
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(1);
+    }
+    
+    from {
+        transform: scale(1.05);
+    }
 }
 
 .botones {
@@ -111,14 +149,23 @@
 }
 .botones a {    
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.1vw;
 }
+
+.botones .boton_reproducir i {
+    font-size: 1.1vw;
+}
+.botones .boton_informacion i {
+    font-size: 1.3vw;
+}
+
 
 .botones .boton_reproducir {
     border: 1px solid white;
     background: white;
     border-radius: 5px;
     padding: 7px 12px;
+    font-size: 1.6vw;
 }
 .botones .boton_informacion {
     border: 1px solid gray;
@@ -127,10 +174,12 @@
     margin-left: 20px;
     border-radius: 5px;
     padding: 7px 12px;
+    font-size: 1.6vw;
 }
 
 .botones .boton_informacion  a {
     color: white;
+    font-size: 1.1vw;
 }
 
 .boton_reproducir i {
@@ -138,3 +187,15 @@
     font-size: 16px;
 }
 
+
+@media only screen and (max-width: 882px) {
+    .menu_bar .opciones {
+        display: none;
+    }
+    .opciones_responsive {
+        display: block;
+    }
+    .opciones_responsive a{
+        display: flex;
+    }
+}

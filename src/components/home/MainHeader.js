@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
-const MainHeader = () => {
+const MainHeader = (props) => {
+
+    const pelicula = props.dato ? props.dato[4] : {};
+    // const pelicula = props.dato[1]
+    console.log("hola", pelicula);
+
     return (
         <>
             <div className="main_header_body">
                 <div className="detalle">
-                     <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQJINKoJHp7xqM6TjXzvQlwxHFt1UN-Fl5ob2amdK0IMPiaYdHjuPkjZTi8GShLX1rSh9ED3qE0YITcC4NvGF0FdSrYBvCr30byK.webp?r=53b" alt=""/>
-                     <p>Descender a las catacumbas de París parecía una gran aventura, pero se encontraron con una laberíntica pesadilla.</p>
+                     <img src={pelicula.img_titulo_pelicula} alt=""/>
+                     <p>{pelicula.descripcion_pelicula}</p> 
                      <div className="botones">
                             <div className="boton_reproducir">
-                                <i class="fas fa-play"></i>
-                                <a href="">Reproducir</a>
+                                <i class="fas fa-play"></i>                                                                                                                                                                      
+                                <Link to="/movie">Reproducir</Link>
                             </div>
                             <div className="boton_informacion">
                                 <i class="far fa-question-circle"></i>
