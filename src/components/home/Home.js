@@ -15,8 +15,6 @@ const Home = () => {
         const fetchData = async () => {
             const res = await fetch("https://mov-arg-2.herokuapp.com/pruebas_informacion")
             const data = await res.json()
-            console.log("datos de mi api000:", response);
-            
             setResponse(data);
         }
         fetchData();

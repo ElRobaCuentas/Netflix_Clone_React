@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MainHeader = (props) => {
 
-    const pelicula = props.dato ? props.dato[4] : {};
-    // const pelicula = props.dato[1]
+    const pelicula = props.dato ? props.dato[1] : {};
     console.log("hola", pelicula);
 
     return (
