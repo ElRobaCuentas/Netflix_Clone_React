@@ -7,20 +7,19 @@ import Pro from './Pro'
 
 const Home = () => {
 
-    const [response, setResponse] = useState()
-
-    // const apiCall = databaUsuario()
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const res = await fetch("https://mov-arg-2.herokuapp.com/pruebas_informacion")
-            const data = await res.json()
-            setResponse(data);
-        }
-        fetchData();
-    }, [])
-
-    console.log("datos de mi api:", response);
+        const [responsive, setResponsive] = useState()
+        
+        useEffect(() => {
+            const fetchData = async () => {
+                // const res =  await fetch("https://jsonplaceholder.typicode.com/posts")
+                const res =  await fetch("https://mov-arg-2.herokuapp.com/pruebas_informacion")
+                const dato = await res.json()
+                setResponsive(dato)
+            }
+            fetchData();
+        }, [])
+        
+        console.log("objetos:", responsive)
 
     return (
         <>
@@ -30,11 +29,11 @@ const Home = () => {
                        <Menu />
                    </div>
                    <div className="main_header">
-                       <MainHeader dato={response} />
+                       <MainHeader  dato={responsive}/>
                    </div>
                </header>
                <main className="main">
-                  <Pro /> 
+                  {/* <Pro objetosos={responsive}/>  */}
                </main>
            </div>
         </>

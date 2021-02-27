@@ -5,7 +5,8 @@ const Movie = () => {
     return (
         <>
             <div>
-                <Home />
+                Aqui toy movie
+                {/* <Home /> */}
             </div>
         </>
     )

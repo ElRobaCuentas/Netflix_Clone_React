@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Pro = () => {
+const Pro = (props) => {
+    const menudos = props.objetosos ? props.objetosos[50] : {};
+    console.log("los objetos son:", menudos);
+
     return (
         <div>
-            <h1>yo soy pro</h1>
+            <h1>{menudos.title}</h1>
         </div>
     )
 }
