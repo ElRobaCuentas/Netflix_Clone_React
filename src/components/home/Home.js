@@ -6,20 +6,27 @@ import Pro from './Pro'
 
 
 const Home = () => {
+    // https://jsonplaceholder.typicode.com/posts
+    const [jaze, setJaze] = useState([])
+    const [response, setResponse] = useState()
 
-        const [responsive, setResponsive] = useState()
-        
-        useEffect(() => {
-            const fetchData = async () => {
-                // const res =  await fetch("https://jsonplaceholder.typicode.com/posts")
-                const res =  await fetch("https://mov-arg-2.herokuapp.com/pruebas_informacion")
-                const dato = await res.json()
-                setResponsive(dato)
-            }
-            fetchData();
-        }, [])
-        
-        console.log("objetos:", responsive)
+    useEffect(() => {
+       const datos = async () => {
+           const jaz = await fetch("https://jsonplaceholder.typicode.com/posts")
+           const dat = await jaz.json();
+           setJaze(dat)
+       }
+       const fetchData = async () => {
+           const jaz = await fetch("https://mov-arg-2.herokuapp.com/pruebas_informacion")
+           const dat = await jaz.json();
+           setResponse(dat)
+       }
+        datos();
+        fetchData();
+    }, [])
+console.log("la funcion es:", jaze)
+
+
 
     return (
         <>
@@ -29,11 +36,15 @@ const Home = () => {
                        <Menu />
                    </div>
                    <div className="main_header">
-                       <MainHeader  dato={responsive}/>
+                       <MainHeader  dato={response}/>
                    </div>
                </header>
                <main className="main">
-                  {/* <Pro objetosos={responsive}/>  */}
+                    {
+                        jaze.map( (cuerpo) => {
+                            return <Pro  nombre={cuerpo.id}/>
+                        } )
+                    }   
                </main>
            </div>
         </>
