@@ -8,7 +8,7 @@ const Pro = (props) => {
     return (
         <div>
             <h1>{recibir}</h1>
-            <p>hola que tal nuevo merge</p>
+            <p>hola que tal nuevo merge 1</p>
         </div>
     )
 }
