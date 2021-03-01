@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import MainHeader from '../inicio/MainHeader'
-import Menu from '../inicio/Menu'
-import Pro from '../inicio/Pro'
+import MainHeader from './inicio/MainHeader'
+import Menu from './inicio/Menu'
+import Pro from './inicio/Pro'
 import './styles/inicio.css'
 
 
