@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import MainHeader from '../inicio/MainHeader'
-import Menu from '../inicio/Menu'
-import Pro from '../inicio/Pro'
+import Informacion from '../layouts/Informacion'
+import MainHeader from './inicio/MainHeader'
+import Menu from './inicio/Menu'
+import Pro from './inicio/Pro'
 import './styles/inicio.css'
 
 
@@ -29,7 +30,7 @@ const Inicio = () => {
         fetchData();
     }, [])
     
-    console.log("la funcion es:", jaze)
+    // console.log("la funcion es:", jaze)
     let tagContainer = document.getElementById("contenedor")
     tagContainer && (tagContainer.style.backgroundImage = `url(${background})`);
 
@@ -45,11 +46,17 @@ const Inicio = () => {
                    </div>
                </header>
                <main className="main">
-                    {
+                    {/* {
                         jaze.map( (cuerpo) => {
                             return <Pro nombre={cuerpo.id} />
                         } )
-                    }   
+                    }    */}
+                    <Informacion >
+                        <div>
+                            HIJO DE CHILDREN
+                        </div>
+                    </Informacion>
+
                </main>
            </div>
         </>
