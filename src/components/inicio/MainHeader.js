@@ -4,9 +4,14 @@ import './styles/main-header.css'
 
 const MainHeader = (props) => {
 
-        const pelicula = props.dato ? props.dato[4] : {};
+    const randomico = (a, b) => {
+        return Math.round(Math.random()*(b-a)+parseInt(a));
+    }
 
-        console.log("esta es la:", pelicula);
+    const pelicula = props.dato ? props.dato[randomico(0,4)] : {};
+    const background = props.setBack;
+    background(pelicula.img_pelicula);
+
     return (
         <>
             <div className="main_header_body">
