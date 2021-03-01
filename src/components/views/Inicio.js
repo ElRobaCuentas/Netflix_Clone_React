@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MainHeader from './inicio/MainHeader'
 import Menu from './inicio/Menu'
+import MiLista from './inicio/MiLista'
 import Pro from './inicio/Pro'
 import './styles/inicio.css'
 
@@ -39,11 +40,7 @@ const Inicio = () => {
                    </div>
                </header>
                <main className="main">
-                    {
-                        jaze.map( (cuerpo) => {
-                            return <Pro nombre={cuerpo.id}/>
-                        } )
-                    }   
+                  <MiLista />  
                </main>
            </div>
         </>

@@ -1,0 +1,145 @@
+h1 {
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+}
+  
+.wrapper {
+    display: flex;
+    grid-template-columns: repeat(3,100%);
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+  
+section {
+    width: 100%;
+    position: relative;
+    display: flex; 
+    /* grid-template-columns: repeat(5, auto); */
+    margin-top: 10px;
+}
+.item img {
+    width: 230px;
+    object-fit: cover;
+    filter: brightness(80%);
+    animation: escalar 1.1s infinite alternate;
+    margin-right: 12px;
+}
+
+.item:hover { 
+  filter: brightness(100%);
+  margin: 40px 0px;
+  transform: scale(1.4);
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(1);
+    }
+    
+    from {
+        transform: scale(1.05);
+    }
+}
+
+      
+.wrapper a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 5em; 
+  background:rgba(0,0,0, 0.2);
+  width: 60px; 
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+ }
+
+ .wrapper .derecha{
+    position: absolute;
+    right: 0;
+ }
+ .wrapper .izquierda{
+    position: absolute;
+ }
+  
+
+  /* Remove the arrow for Mobile*/
+  
+  @media only screen and (max-width: 600px) {
+    a.arrow__btn {
+      display:none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MI LISTA - MAIN*/
+
+/* .lista {
+    display: flex;
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+
+.replic_lista { 
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+}
+
+.mi_lista a {
+    display: flex;
+}
+
+.mi_lista a:hover {
+    transform: scale(1.2);
+}
+
+.pelis_lista {
+    display: flex;
+}
+
+.pelis_lista img {
+    width: 200px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+
+
+ */
+
