@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
+import './styles/main-header.css'
 
 const MainHeader = (props) => {
 
@@ -14,11 +15,11 @@ const MainHeader = (props) => {
                      <p> {pelicula.descripcion_pelicula}</p> 
                      <div className="botones">
                             <div className="boton_reproducir">
-                                <i class="fas fa-play"></i>                                                                                                                                                                      
+                                <i className="fas fa-play"></i>                                                                                                                                                                      
                                 <Link to="/movie">Reproducir</Link>
                             </div>
                             <div className="boton_informacion">
-                                <i class="far fa-question-circle"></i>
+                                <i className="far fa-question-circle"></i>
                                 <a href="">Más Información</a>
                             </div>
                      </div>

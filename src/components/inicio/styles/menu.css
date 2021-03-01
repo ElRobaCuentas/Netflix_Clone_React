@@ -1,0 +1,67 @@
+/*MENU*/
+
+.menu_bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.menu_bar img {
+    width: 90px;
+}
+.menu_bar .opciones {
+    display: flex;
+    border: 2px solid yellow
+}
+
+.logo_opciones {
+    display: flex;
+    align-items: center;
+}
+
+.logo_opciones img {
+    margin-right: 20px;
+}
+
+.opciones a {
+    padding: 0px 14px;
+    color: white;
+    font-size: 1.1vw;
+}
+
+.opciones_responsive a {
+    width: 200px;
+    padding: 0px 14px;
+    color: white;
+}
+.opciones_responsive {
+    display: none;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.iconos i {
+    font-size: 20px;
+    padding: 0px 14px;
+}
+
+.iconos .imagen {
+    width: 30px;
+    height: 30px;
+}
+
+.foto_perfil {
+    display: flex;
+    align-items: center;
+}
+
+.iconos .opciones_imagen {
+    color: white;
+}

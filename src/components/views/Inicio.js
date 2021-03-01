@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import './home.css'
-import Menu from './Menu'
-import MainHeader from './MainHeader'
-import Pro from './Pro'
+import MainHeader from '../inicio/MainHeader'
+import Menu from '../inicio/Menu'
+import Pro from '../inicio/Pro'
+import './styles/inicio.css'
 
 
-const Home = () => {
+const Inicio = () => {
     // https://jsonplaceholder.typicode.com/posts
     const [jaze, setJaze] = useState([])
     const [response, setResponse] = useState()
@@ -24,9 +24,8 @@ const Home = () => {
         datos();
         fetchData();
     }, [])
-console.log("la funcion es:", jaze)
-
-
+    
+    console.log("la funcion es:", jaze)
 
     return (
         <>
@@ -42,7 +41,7 @@ console.log("la funcion es:", jaze)
                <main className="main">
                     {
                         jaze.map( (cuerpo) => {
-                            return <Pro  nombre={cuerpo.id}/>
+                            return <Pro nombre={cuerpo.id}/>
                         } )
                     }   
                </main>
@@ -52,4 +51,4 @@ console.log("la funcion es:", jaze)
     )
 }
 
-export default Home;
+export default Inicio;

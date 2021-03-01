@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/menu.css'
 
 const Menu = () => {
     
@@ -20,18 +21,18 @@ const Menu = () => {
                     <div className="opciones_responsive">
                         <a href="">
                             <p>Explorar</p>
-                            <i class="fas fa-sort-down"></i>
+                            <i className="fas fa-sort-down"></i>
                         </a>
                     </div>
                 </div>
                 <div className="iconos">
-                    <i class="fas fa-search "></i>
-                    <i class="fas fa-gift "></i>
-                    <i class="fas fa-bell "></i>
+                    <i className="fas fa-search "></i>
+                    <i className="fas fa-gift "></i>
+                    <i className="fas fa-bell "></i>
                     
                     <a href="" className="foto_perfil">
                         <img className="imagen" src="https://www.mirales.es/sites/default/files/styles/hero_small/public/heros/Foto-de-perfil.jpg" alt=""/>
-                        <i class="fas fa-caret-down"></i>
+                        <i className="fas fa-caret-down"></i>
                     </a>
                 </div>  
             </div>
