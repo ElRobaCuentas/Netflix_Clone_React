@@ -1,10 +1,12 @@
 import React from 'react'
 import './styles/main-listas.css'
 
-const MiLista = () => {
+const MiLista = (props) => {
+
+    const name_lista = props.carrusel;
     return (
         <>
-            <h1>Mi lista</h1>
+            <h1>{name_lista}</h1>
             <div className="wrapper">
                 <section id="section1">
                     {/* <a href="#section2" className="izquierda">›</a> */}

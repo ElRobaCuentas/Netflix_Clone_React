@@ -40,7 +40,10 @@ const Inicio = () => {
                    </div>
                </header>
                <main className="main">
-                  <MiLista />  
+                  <MiLista carrusel={"Mi lista"}/>  
+                  <MiLista carrusel={"Series"}/>  
+                  <MiLista carrusel={"Tendencias"}/>  
+                  <MiLista carrusel={"Sobre viajes en el tiempo"}/>  
                </main>
            </div>
         </>
