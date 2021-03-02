@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/main-listas.css'
+import './styles/carrusel-viejo.css'
 
-const MiLista = (props) => {
+const CarruselViejo = (props) => {
 
     const name_lista = props.carrusel;
     return (
@@ -72,43 +72,6 @@ const MiLista = (props) => {
     )
 }
 
-export default MiLista;
+export default CarruselViejo;
 
-
-
-
-
-
-
-{/* <div className="modal">
-                <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWKZ09Rc0XJajYGD8tjSCBrBt765O6U5mouCyI3ztWUnVgMQiKvCZsC3DEakg_ArUIlscAapIeBPRx1_SSFRfIP6yZ4taN7eprJhsqodShvEGMlyCPPwGbmgs1CF.jpg?r=da1" className="modal__img"/>
-                <div className="modal_boton">X</div>    
-            </div> */}
-{/* <div className="lista">
-                <div className="replic_lista">
-                    <div className="mi_lista">
-                        <a href="">Mi lista</a>
-                    </div>
-                    <div className="pelis_lista">
-                        <a href="">
-                            <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWKZ09Rc0XJajYGD8tjSCBrBt765O6U5mouCyI3ztWUnVgMQiKvCZsC3DEakg_ArUIlscAapIeBPRx1_SSFRfIP6yZ4taN7eprJhsqodShvEGMlyCPPwGbmgs1CF.jpg?r=da1" alt=""/>
-                        </a>
-                        <a href="">
-                            <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcRostPv6tJWGRQ8kkR7o3aAx0aFJUri8ibmebSJ6mKklIf9_WQzmicOuSJttdjvJf5tNnVd9Os3vxSRxa1YO4ZfN3_7m1NZbwGuCXwvhofjcNTnSq4QJqJ4PQamXtfwE64P6jSzkdVocnxtAloYD6n4Ew_SCA.jpg?r=8ae" alt=""/>
-                        </a>
-                        <a href="">
-                            <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfl1k53jLET3pG3LQCHZyRtSB8TO3IkvelVUT0bYNKUlIS03S891OBiuzSu4cUFdBWOFFaCKmf3w-KBpDjn6Q6JtgBfNpveWhHqPZnkvmN_u88AekfsctLHLrEQu.jpg?r=4e9" alt=""/>
-                        </a>
-                        <a href="">
-                            <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZWMmoF5gZO9ty664r0noYsJIRUwq-HiecEhaUFPyIsHTWgbPkhzBRlWpbLSsbn8Faf3lOswlWGwMlkTt3r-nQnQkNb6ciM4eVYaCaqI1bBP5bU4mWT6v_drIi1L.jpg?r=685" alt=""/>
-                        </a>
-                        <a href="">
-                            <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTsCglf4vYoZpyx-DWzSxwgZ7B9CvSOJYFZFbfkMlWGKzIEvjb41Qmko00Ras39y4ymztYtr1SaT4lT-7mb8JbdHbePXUo_62gelXExJNGCl13YHnS0qCHBX2oto.jpg?r=5fb" alt=""/>
-                        </a>
-                        <a href="">
-                            <img src="https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABU-861hCn4hkMCk3lWNrFJK8GxkHQHw5gaOHNt7Jo_oGHT9Ad2GmiEP829joOjlNcBQDoRbhiQX8dChKRVGD-vpHTt0YeaYQKIVTgyLmpomwZ_7TCir2Y-KZjFKP.jpg?r=317" alt=""/>
-                        </a>
-                    </div>
-                </div>
-            </div> */}
 
