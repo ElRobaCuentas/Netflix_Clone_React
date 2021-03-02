@@ -8,8 +8,8 @@ const MainHeader = (props) => {
         return Math.round(Math.random()*(b-a)+parseInt(a));
     }
 
-    const pelicula = props.dato ? props.dato[randomico(0,4)] : {};
-    const background = props.setBack;
+    const pelicula = props.data ? props.data[randomico(0,4)] : {};
+    const background = props.setFondo;
     background(pelicula.img_pelicula);
 
     return (

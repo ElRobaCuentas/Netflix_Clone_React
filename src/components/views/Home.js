@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Wrapper from '../layouts/Wrapper'
+import Menu from './inicio/Menu'
+import './styles/home.css'
 
-const Series = () => {
+const Home = () => {
 
     const [response, setResponse] = useState()
 
@@ -20,12 +22,11 @@ const Series = () => {
             <Wrapper
                 data={response}
             >
-                <h1>Estamso en Series</h1>
+                <h1>HOLA MUNDO</h1>
             </Wrapper>
 
         </>
     )
-
 }
 
-export default Series;
+export default Home

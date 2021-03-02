@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './styles/menu.css'
 
 const Menu = () => {
@@ -12,11 +13,11 @@ const Menu = () => {
                         <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt=""/>
                     </a>
                     <div className="opciones">
-                        <a href=""> Inicio</a>
-                        <a href=""> Series</a>
-                        <a href=""> Películas</a>
-                        <a href=""> Novedades Populares</a>
-                        <a href=""> Mi lista</a>
+                        <Link to="/browse">Inicio</Link>
+                        <Link to="/series">Series</Link>
+                        <Link to="/series">Películas</Link>
+                        <Link to="/series">Novedades Populares</Link>
+                        <Link to="/series">Mi lista</Link>
                     </div>
                     <div className="opciones_responsive">
                         <a href="">
