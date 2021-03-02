@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import MainHeader from './inicio/MainHeader'
 import Menu from './inicio/Menu'
 import MiLista from './inicio/MiLista'
+import PortadaPelicula from './inicio/PortadaPelicula'
 import Pro from './inicio/Pro'
 import './styles/inicio.css'
 
@@ -40,10 +41,8 @@ const Inicio = () => {
                    </div>
                </header>
                <main className="main">
-                  <MiLista carrusel={"Mi lista"}/>  
-                  <MiLista carrusel={"Series"}/>  
-                  <MiLista carrusel={"Tendencias"}/>  
-                  <MiLista carrusel={"Sobre viajes en el tiempo"}/>  
+                       <MiLista carrusel={"Mi lista"}/>
+                       <PortadaPelicula />
                </main>
            </div>
         </>

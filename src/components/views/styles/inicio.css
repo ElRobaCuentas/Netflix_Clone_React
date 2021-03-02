@@ -28,3 +28,26 @@
     border: 3px solid skyblue;
     background-color: #141414;
 }
+
+.main:before {
+    content: '';
+    position: absolute;
+    top: -50;
+    width: 100%;
+    height: 100%;
+    background-color: #2196f3;
+    transform: skew(500deg);
+    transition: 0.5s;
+}
+
+.main:hover:before {
+    top: -70%;
+    transform: skew(300deg);
+}
+
+.main:after {
+    content: 'Philips';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

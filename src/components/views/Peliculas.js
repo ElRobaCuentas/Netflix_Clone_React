@@ -1,9 +1,9 @@
 import React from 'react'
 import Menu from './inicio/Menu';
 
-const Series = () => {
+const Peliculas = () => {
     return (
-        <>
+        <div>
             <div className="container">
                <header className="header">
                    <div className="menu">
@@ -17,8 +17,8 @@ const Series = () => {
                   
                </main>
            </div>
-        </>
+        </div>
     )
 }
 
-export default Series;
+export default Peliculas;

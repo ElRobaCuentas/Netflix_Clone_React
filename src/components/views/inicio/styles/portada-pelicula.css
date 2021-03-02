@@ -1,0 +1,42 @@
+.title_prueba {
+   margin-top: 24px;
+}
+
+.padre {
+    display: flex;
+    grid-template-columns: repeat(3,100%);
+    overflow:hidden;
+    scroll-behavior: smooth;
+}
+
+.section_portada {
+    width: 100%;
+    position: relative;
+    display: flex; 
+    /* grid-template-columns: repeat(5, auto); */
+}
+
+.portada_pelicula img {
+    width: 230px;
+    object-fit: cover;
+    filter: brightness(80%);
+    /* animation: escale 1.1s infinite alternate; */
+    margin-right: 12px;
+    border-radius: 5px;
+}
+
+.portada_pelicula:hover { 
+    filter: brightness(100%);
+    margin: 10px 20px;
+    /* transform: scale(1.4); */
+  }
+  
+  @keyframes escale {
+      to {
+          /* transform: scale(1); */
+      }
+      
+      from {
+          /* transform: scale(1.05); */
+      }
+  }
