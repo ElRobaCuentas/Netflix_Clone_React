@@ -3,18 +3,19 @@ import PortadaPelicula from './PortadaPelicula'
 import './styles/carrusel.css'
 import imagenes from '../../../database/imagenes'
 
-const Carrusel = () => {
+const Carrusel = (props) => {
 
+    const titles = props.titulo;
     const img = imagenes;
 
     return (
         <>
-            <h1>Mi lista</h1>
+            <h1> {titles}</h1>
             <div className="wrapper">
                 <section>
                     {
                         img.map(  all_image => {
-                            return <PortadaPelicula img={all_image} /> 
+                            return <PortadaPelicula img={all_image} />
                         } )
                     }
 

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './styles/main-header.css'
 
 const MainHeader = (props) => {
-
         const pelicula = props.dato ? props.dato[4] : {};
 
         console.log("esta es la:", pelicula);

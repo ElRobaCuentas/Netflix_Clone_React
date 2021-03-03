@@ -1,22 +1,14 @@
 import React from 'react'
+import Wrapper from '../layout/Wrapper';
+import Carrusel from './inicio/Carrusel';
 import Menu from './inicio/Menu';
 
 const Series = () => {
     return (
         <>
-            <div className="container">
-               <header className="header">
-                   <div className="menu">
-                       <Menu />
-                   </div>
-                   <div className="main_header">
-                       {/* <MainHeader  dato={response}/> */}
-                   </div>
-               </header>
-               <main className="main">
-                  
-               </main>
-           </div>
+            <Wrapper>
+                <h1 style={{color:"white"}}>Estoy dentro de Series</h1>   
+            </Wrapper>
         </>
     )
 }

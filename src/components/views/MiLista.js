@@ -1,9 +1,13 @@
 import React from 'react'
+import Wrapper from '../layout/Wrapper'
 
 const MiLista = () => {
     return (
         <div>
-            Estamos en tu lista
+            <h2>Estoy en mi lista</h2>
+           <Wrapper>
+               <h3>SAXHJSUYCGVSUCSGBCUYWSGCBYU</h3>
+           </Wrapper>
         </div>
     )
 }
