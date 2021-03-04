@@ -10,11 +10,12 @@ const NovedadesPopulares = () => {
         <div>
             <WrapperTwo>
                 <h1>10 más populares en el Perú de hoy</h1>
-                <Carrusel />
-                <PeliculasPopulares />
+                <PeliculasPopulares /> 
             </WrapperTwo>
         </div>
     )
 }
 
 export default NovedadesPopulares;
+
+{/* <Carrusel /> */}

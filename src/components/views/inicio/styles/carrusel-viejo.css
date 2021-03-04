@@ -22,16 +22,16 @@ section {
     width: 230px;
     object-fit: cover;
     filter: brightness(80%);
-    animation: escalar 1.1s infinite alternate;
+    /* animation: escalar 1.1s infinite alternate; */
     margin-right: 12px;
     border-radius: 10px;
-    margin: 5px 10px;
-    z-index: 5;
+    /* margin: 5px 10px; */
+    /* z-index: 5; */
 }
 
 .item:hover { 
   filter: brightness(100%);
-  transform: scale(1.09);
+  /* transform: scale(1.09); */
   z-index: 5;
 }
 
