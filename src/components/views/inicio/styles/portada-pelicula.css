@@ -18,6 +18,7 @@
     animation: escale 1s infinite alternate;
     margin-right: 12px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
  /* @keyframes escale {

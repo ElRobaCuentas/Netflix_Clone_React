@@ -1,5 +1,3 @@
-
-
 const imagenes = [
     "https://occ-0-1567-1123.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABRvngexxF8H1-OzRWFSj6ddD-aB93tTBP9kMNz3cIVfuIfLEP1E_0saiNAwOtrM6xSOXvoiSCMsihWSkW0dq808-R7_lBnr6WHbjkKBX6I3sD0uCcS8kSPbRjEDdG8CeeVXEAEV6spQ.webp",
     "https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABZEK-7pZ1H5FD4cTyUb9qB_KeyJGz5p-kfPhCFv4GU_3mbdm8Xfsy4IBchlG9PFNdGff8cBNPaeMra72VFnot41nt0y3e8RLgaVwwh3UvyM2H2_MkmadWbQUeGuf811K7-cxJJh7gA.jpg",
@@ -13,4 +11,17 @@ const imagenes = [
     "https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABbXWODpAWqVXcmmjMA7K-2mPkQpvwCLfSdeyhVXzR8A3MSpdSEnnjf4HEJJTYC-TnktU6njTUGAxmzWEYCaJbk4v_ZeL-7QGzmkvYBjg_N-evr2XmcX-Fanoyvu_nimFP4iigPe4O3Vr_WcgplhwkDrJwPUJa84wRLrNAx3TufN5V7cWRP4indqu5HQahvgFEqfL9zjp4g.jpg",
 ]
 
-export default imagenes;
+const imagenesPeliculasPopulares = [
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABWeYm2SfIiyfaZTCBJkhfRLV6SA00pokFFojbT3SVHEeQER2JFeXR9hYvZvlf5uXQHQtB4AIJoIKYhim98fNTXrrZmkZ.webp?r=929",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABXGj78pJLTWD0OTqFGL9XSe-Zol8jrwEH2AJtczRp0odmNDw1uBb4m82lZNl2jqjbvIVj1308-GsZLl4ty7nwpmLQkXZIAlbmdo6UdmrVsMf69jqujtznqZ47b_fm0KCcK8.webp?r=7a4",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABQsFzdAN1Z8Dl6Qs2HrLURJi_7att8auPQ_OODRxbnhSQk3khUm2aNsaVBMmjEL86Kv2I2kc2fon5wH3ct7YphXxoQeB.webp?r=f39",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABSH1fKUvKhyNaMJqrLAfag_uY3jE025jgWQ-NuJHEtSG1QWziOwkI3OGGVObJShvnc3StOH7r7VtbrOrmFAmrJFxB48k.webp?r=493",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABcwH0YLeRxKhaVpe8Jtu_wJeXk96vGnP2TeWJJfT8_st1WeElxZTr6Rgi1PjBJ_kpkAIpx6EbwvkI2rRqvFpchQYwS2r9s6Xkf6NFr2_43IhRxwJ04C3q8kv_fvHow.jpg?r=86a",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABa3v2QY7nnhgoEFX_h_2a32C7672ZbJ_OSIk_w-j3REIWHWqWCxsiFjfSQLQWDA1JGRynlbsyM9CuH_IEBXXCJgZV_t9.webp?r=0df",
+    "https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/412e4119fb212e3ca9f1add558e2e7fed42f8fb4/AAAABTOj1-116yVcgKWMU2dI3GFR4x0fSkiGsqtLLeLUxRR7STaksjAqBTrYlTfrB8nIGnGvXksi0ewXAhVGg6-pLxpFOIfcpjK-pf8D5xehFZo5a6vJbo4L0AGbrzglbyUoq255QBJgRQ.jpg",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABdurjFYQH6XrZ2zCHecUjT4HUWP0H4EcvFq3jpxD4u2Et7xTTAY0ytWjD0RxcwqlgzPmjvUkFGNpDOk3Oez9dvqqsYMV.webp?r=d50",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABYbRsgh-bweHiUixFJ9QMs4xJ6Vq5cb4EX3nZhOd1PvYpGwlGTiuU_KMJjtkE8uIgedLVPAjzHp9h5liuvQxpHmyV0a2.webp?r=d50",
+    "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaLGS1LFioT7Fnzv3y6zAEvU0x12VFRk2xtxiF7Zv-c4tql--VK89ghAZJGAV8wX7zQyRHGkIEm4eO3SXLFHdRIfORQ.webp?r=2a1",
+]
+
+export default {imagenes, imagenesPeliculasPopulares}

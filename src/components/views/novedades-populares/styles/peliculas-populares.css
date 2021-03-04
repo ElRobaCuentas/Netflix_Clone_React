@@ -1,12 +1,8 @@
 .populares {
     width: 200px;
     position: relative;
+    /* margin-top: 50px; */
 }
-
-/* .populares a {
-    width: 150px;
-} */
-
 
 a .imagen1 {
     width: 100px;
@@ -17,6 +13,8 @@ a .imagen1 {
 }
 
 a .imagen2 {
+    height: 140px;
     width: 100px;
     margin-left: 100px;
+    object-fit: contain;
 }
