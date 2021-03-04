@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Wrapper from '../layout/Wrapper'
+import WrapperCarrusel from '../layout/WrapperCarrusel'
 import Carrusel from './inicio/Carrusel'
 import MainHeader from './inicio/MainHeader'
 import Menu from './inicio/Menu'
@@ -24,10 +25,10 @@ const Inicio = () => {
     return (
         <>
             <Wrapper dato={response}>
-                <Carrusel titulo={"Mi lista"} />
-                <Carrusel titulo={"Populares"} />
-                <Carrusel titulo={"Series"} />
-                <Carrusel titulo={"Continuar viendo"} />
+                {/* <Carrusel titulo={"Mi lista"} /> */}
+                <WrapperCarrusel>
+                                        
+                </WrapperCarrusel>
             </Wrapper>
         </>
 

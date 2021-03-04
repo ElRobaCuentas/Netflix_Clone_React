@@ -12,13 +12,11 @@ a .imagen1 {
     width: 100px;
     height: 140px;
     position: absolute;
-    right: 70px;
+    right: 79px;
     object-fit: cover;
-    z-index: 10;
 }
 
 a .imagen2 {
     width: 100px;
     margin-left: 100px;
-    z-index: 11;
 }

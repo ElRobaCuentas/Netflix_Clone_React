@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/peliculas-populares.css'
-import Imagen from '../../../imagenes/00.png'
+import Imagen from '../../../imagenes/0.png'
 
 const PeliculasPopulares = () => {
     return (
