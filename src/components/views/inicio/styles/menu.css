@@ -14,7 +14,7 @@
 }
 .menu_bar .opciones {
     display: flex;
-    border: 2px solid yellow
+    /* border: 2px solid yellow */
 }
 
 .logo_opciones {

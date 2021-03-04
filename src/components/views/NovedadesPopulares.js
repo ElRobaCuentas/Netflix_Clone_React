@@ -1,9 +1,18 @@
 import React from 'react'
+import WrapperTwo from '../layout/WrapperTwo'
+import Carrusel from './inicio/Carrusel'
+import PortadaPelicula from './inicio/PortadaPelicula'
+import PeliculasPopulares from './novedades-populares/PeliculasPopulares'
 
 const NovedadesPopulares = () => {
+    
     return (
         <div>
-            Estamos en Novedades Populares
+            <WrapperTwo>
+                <h1>10 más populares en el Perú de hoy</h1>
+                <Carrusel />
+                <PeliculasPopulares />
+            </WrapperTwo>
         </div>
     )
 }

@@ -3,13 +3,13 @@
     width: 230px;
     /* border: 3px solid yellow; */
     overflow: hidden;
-    filter: brightness(80%);
+    filter: brightness(70%);
     margin-right: 8px;
 }
 .portada_pelicula:hover { 
     margin: 15px 10px;
-    filter: brightness(100%);
-    transform: scale(1.01);
+    filter: brightness(130%);
+    /* transform: scale(1.01); */
 }
 .portada_pelicula img {
     width: 230px;
@@ -20,7 +20,7 @@
     border-radius: 5px;
 }
 
-  @keyframes escale {
+  /* @keyframes escale {
       to {
           transform: scale(1.05);
       }
@@ -28,4 +28,4 @@
       from {
           transform: scale(1.1);
       }
-  }
+  } */
