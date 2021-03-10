@@ -2,6 +2,7 @@
     width: 200px;
     position: relative;
     /* margin-top: 50px; */
+    border: 1px solid red;
 }
 
 a .imagen1 {
@@ -17,4 +18,31 @@ a .imagen2 {
     width: 100px;
     margin-left: 100px;
     object-fit: contain;
+}
+
+.cajaFloat {
+    width: 100px;
+    height: 200px;
+    border: 1px solid blue;
+    background: green;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    /* display: none; */
+
+    /* transition: all 1s; */
+    animation: pishi 1s;
+}
+
+@keyframes pishi {
+    from {
+        width: 100px;
+        height: 200px;
+    }
+    to {
+        width: 200px;
+        height: 400px;
+        /* transform: scale(2); */
+    }
 }

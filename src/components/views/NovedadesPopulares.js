@@ -17,8 +17,8 @@ const NovedadesPopulares = (props) => {
                 <div className="wrapper">
                     <section>
                         {
-                            img2.map(  all_image => {
-                                return <PeliculasPopulares img2={all_image} />
+                            img2.map(  (all_image, index) => {
+                                return <PeliculasPopulares img2={all_image} num={index}/>
                             } )
                         }
                     </section>
