@@ -1,4 +1,4 @@
-/* h1 {
+h1 {
     font-family: Arial;
     color: white;
     font-size: 20px;
@@ -6,15 +6,16 @@
     
   .wrapper {
       display: flex;
-      grid-template-columns: repeat(3,100%);
+      /* grid-template-columns: repeat(3,100%); */
       overflow:hidden;
       scroll-behavior: smooth;
   }
     
   section {
       width: 100%;
-      position: relative;
+      /* position: relative; */
       display: flex; 
-      grid-template-columns: repeat(5, auto);
+      /* grid-template-columns: repeat(5, auto); */
       margin-top: 10px;
-  } */
+      border: 3px solid blue;
+  }
