@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './styles/menu.css'
+import './styles/navbar.css'
 
-const Menu = () => {
+const NavBar = () => {
     
     return (
         <>
@@ -41,4 +41,4 @@ const Menu = () => {
     )
 }
 
-export default Menu;
+export default NavBar;

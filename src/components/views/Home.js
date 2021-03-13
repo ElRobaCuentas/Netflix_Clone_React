@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Wrapper from '../layouts/Wrapper'
-import Menu from './inicio/Menu'
 import './styles/home.css'
 
 const Home = () => {

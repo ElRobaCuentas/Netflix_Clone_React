@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './styles/wrapper.css';
-import Menu from '../views/inicio/Menu';
-import MainHeader from '../views/inicio/MainHeader';
+import NavBar from '../common/NavBar';
+import MainHeader from '../common/MainHeader';
 
 const Wrapper = (props) => {
 
@@ -17,10 +17,10 @@ const Wrapper = (props) => {
             <div className="container" id="container">
                <header className="header">
                    <div className="menu">
-                       <Menu />
+                       <NavBar />
+
                    </div>
                    <div className="main_header">
-                       {/* Main Header */}
                        <MainHeader 
                             data={props.data}
                             setFondo={setbackground}
