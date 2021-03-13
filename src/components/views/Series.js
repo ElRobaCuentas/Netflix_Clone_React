@@ -17,12 +17,11 @@ const Series = () => {
 
     return (
         <>
-            <Wrapper
-                data={response}
-            >
-                <h1>Estamso en Series</h1>
-            </Wrapper>
-
+            <div className="container-series">
+                <Wrapper data={response}>
+                    <h1>ESTOY EN SERIES</h1>
+                </Wrapper>
+            </div>
         </>
     )
 

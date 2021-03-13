@@ -18,12 +18,11 @@ const Home = () => {
 
     return (
         <>
-            <Wrapper
-                data={response}
-            >
-                <h1>HOME</h1>
-            </Wrapper>
-
+            <div className="container-home">
+                <Wrapper data={response}>
+                    <h1>ESTOY EN HOME</h1>
+                </Wrapper>
+            </div>
         </>
     )
 }

@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
-import './styles/wrapper2.css';
+// import './styles/wrapper2.css'; //LLAMADA SIN MODULO
+import styles from './styles/wrapper2.module.css' //LLAMADA CON MODULO
 import NavBar from '../common/NavBar';
-// import MainHeader from '../common/MainHeader';
 
-const Wrapper = (props) => {
+const Wrapper2 = (props) => {
 
     return (
         <>
-            <div className="container-wrapper2" id="container">
-               <header className="header-wrapper2">
-                   <div className="menu-wrapper2">
+            <div className={styles.container} id="container">
+               <header className={styles.header}>
+                   <div className={styles.navbar}>
                        <NavBar />
                    </div>
                </header>
-               <main className="main-wrapper2">
+               <main className={styles.main}>
                     {props.children}
                </main>
            </div>
@@ -22,4 +22,4 @@ const Wrapper = (props) => {
     )
 }
 
-export default Wrapper;
+export default Wrapper2;
