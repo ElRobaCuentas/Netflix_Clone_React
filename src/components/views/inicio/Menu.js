@@ -6,7 +6,7 @@ const Menu = () => {
     
     return (
         <>
-            <div className="menu_bar">
+            <div className="menu_bar"> 
                 
                 <div className="logo_opciones">
                     <a href="">
@@ -15,9 +15,9 @@ const Menu = () => {
                     <div className="opciones">
                         <Link to="/browse">Inicio</Link>
                         <Link to="/series">Series</Link>
-                        <Link to="/series">Películas</Link>
-                        <Link to="/series">Novedades Populares</Link>
-                        <Link to="/series">Mi lista</Link>
+                        <Link to="/peliculas">Películas</Link>
+                        <Link to="/novedades-populares">Novedades Populares</Link>
+                        <Link to="/mi-lista">Mi lista</Link>
                     </div>
                     <div className="opciones_responsive">
                         <a href="">

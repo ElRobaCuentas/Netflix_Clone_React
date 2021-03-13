@@ -22,7 +22,7 @@ const Home = () => {
             <Wrapper
                 data={response}
             >
-                <h1>HOLA MUNDO</h1>
+                <h1>HOME</h1>
             </Wrapper>
 
         </>
