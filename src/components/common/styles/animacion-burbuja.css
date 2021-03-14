@@ -1,0 +1,39 @@
+.container_animacion_burbuja {
+    /* border: 1px solid blue; */
+
+}
+
+.component1 {
+    position: absolute;
+    transition: all .5s ease;
+}
+.component2 {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+
+    transition: all 1.5s ease;
+
+}
+
+.container_animacion_burbuja:hover .component1 {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.container_animacion_burbuja:hover .component2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.portada_pelicula2 img {
+    width: 260px;
+    object-fit: cover;
+    filter: brightness(80%);
+    animation: escale 1s infinite alternate;
+    margin-right: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

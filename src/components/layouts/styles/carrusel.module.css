@@ -1,0 +1,17 @@
+.container_burbuja {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid violet; */
+    position: relative;
+    height: 250px;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
+}
+
+.flotar_carrusel {
+    position: relative;
+}
+
+h3 {
+    color: #fff;
+}

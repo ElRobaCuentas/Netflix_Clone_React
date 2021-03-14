@@ -1,0 +1,22 @@
+.container {
+    width: 200px;
+    position: relative;
+    /* margin-top: 50px; */
+    border: 1px solid red;
+}
+
+.img1 {
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    right: 79px;
+    object-fit: cover;
+}
+
+.img2 {
+    height: 140px;
+    width: 100px;
+    margin-left: 100px;
+    object-fit: contain;
+}
+

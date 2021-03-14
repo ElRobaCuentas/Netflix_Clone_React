@@ -1,0 +1,26 @@
+
+.portada_pelicula { 
+    width: 230px;
+    filter: brightness(70%);
+}
+
+.portada_pelicula:hover { 
+    /* margin: 15px 1px; */
+    filter: brightness(100%);
+    /* transform: scale(1.01); */
+}
+
+.portada_pelicula img {
+    width: 230px;
+    object-fit: cover;
+    filter: brightness(80%);
+    animation: escale 1s infinite alternate;
+    margin-right: 12px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+ @keyframes escale {
+      to { transform: scale(1.05); }
+      from { transform: scale(1.1); }
+}   
