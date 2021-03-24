@@ -2,9 +2,7 @@ import React from 'react'
 import database from '../../database/imagenes'
 import styles from './styles/pelicula-miniportada.module.css'
 
-const PeliculaMiniPortada = (props) => {
-
-    const img = database.imagenes_peliculas[0]
+const PeliculaMiniPortada = ({ img }) => {
 
     return (
         <>

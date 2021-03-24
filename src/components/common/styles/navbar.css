@@ -19,7 +19,7 @@
 
 .logo_opciones {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .logo_opciones img {

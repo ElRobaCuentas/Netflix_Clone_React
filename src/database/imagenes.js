@@ -11,7 +11,7 @@ const imagenes_peliculas = [
     "https://occ-0-243-299.1.nflxso.net/dnm/api/v5/rendition/a76057bcfd003711a76fb3985b1f2cf74beee3b8/AAAABbXWODpAWqVXcmmjMA7K-2mPkQpvwCLfSdeyhVXzR8A3MSpdSEnnjf4HEJJTYC-TnktU6njTUGAxmzWEYCaJbk4v_ZeL-7QGzmkvYBjg_N-evr2XmcX-Fanoyvu_nimFP4iigPe4O3Vr_WcgplhwkDrJwPUJa84wRLrNAx3TufN5V7cWRP4indqu5HQahvgFEqfL9zjp4g.jpg",
 ]
 
-const imagenes_Peliculas_Populares = [
+const imagenes_peliculas_populares = [
     "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABWeYm2SfIiyfaZTCBJkhfRLV6SA00pokFFojbT3SVHEeQER2JFeXR9hYvZvlf5uXQHQtB4AIJoIKYhim98fNTXrrZmkZ.webp?r=929",
     "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABXGj78pJLTWD0OTqFGL9XSe-Zol8jrwEH2AJtczRp0odmNDw1uBb4m82lZNl2jqjbvIVj1308-GsZLl4ty7nwpmLQkXZIAlbmdo6UdmrVsMf69jqujtznqZ47b_fm0KCcK8.webp?r=7a4",
     "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABQsFzdAN1Z8Dl6Qs2HrLURJi_7att8auPQ_OODRxbnhSQk3khUm2aNsaVBMmjEL86Kv2I2kc2fon5wH3ct7YphXxoQeB.webp?r=f39",
@@ -24,4 +24,4 @@ const imagenes_Peliculas_Populares = [
     "https://occ-0-2645-1740.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaLGS1LFioT7Fnzv3y6zAEvU0x12VFRk2xtxiF7Zv-c4tql--VK89ghAZJGAV8wX7zQyRHGkIEm4eO3SXLFHdRIfORQ.webp?r=2a1",
 ]
 
-export default {imagenes_peliculas, imagenes_Peliculas_Populares}
+export default {imagenes_peliculas, imagenes_peliculas_populares}

@@ -3,9 +3,7 @@ import PeliculaMiniPortada from './PeliculaMiniPortada'
 import database from '../../database/imagenes'
 import './styles/pelicula-burbuja.css'
 
-const PeliculaBurbuja = () => {
-
-    const img = database.imagenes_peliculas[0]
+const PeliculaBurbuja = ({ img }) => {
 
     return (
         <>

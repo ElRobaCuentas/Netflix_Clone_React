@@ -12,13 +12,14 @@ const Carrusel = (props) => {
             <div className={styles.flotar_carrusel} style={{bottom: margen}}>
                 <h3>Peliculas</h3>
                 <div className={styles.container_burbuja}>
+                        {/* <AnimacionBurbuja />
                         <AnimacionBurbuja />
                         <AnimacionBurbuja />
                         <AnimacionBurbuja />
                         <AnimacionBurbuja />
                         <AnimacionBurbuja />
-                        <AnimacionBurbuja />
-                        <AnimacionBurbuja />
+                        <AnimacionBurbuja /> */}
+                        {props.children}
                 </div> 
             </div>
         </>
